@@ -1,0 +1,216 @@
+body {
+    font-family: "Noto Serif SC", serif;
+    font-weight: 400;
+  }
+  
+  .header ul li a {
+    background: #ededed;
+  }
+  
+  .header {
+    background: #ededed;
+  }
+  
+  .card-home .author h3 {
+    color: #fff;
+  }
+  
+  .card-home .author .designation {
+    color: #fff;
+  }
+  
+  .card-home .text {
+    color: #fff;
+  }
+  
+  .card-outer .card-wrapper {
+    border-radius: 25px;
+  }
+  
+  .header {
+    border-radius: 20px;
+  }
+  
+  .card-outer .card-inner-box.offsetleft .header {
+    border-radius: 20px;
+  }
+  
+  .header ul li.active a {
+    background: #9147ff;
+    color: #fff;
+    border-radius: 20px;
+  }
+  
+  .card-resume .title {
+    margin-top: 0px;
+  }
+  
+  .card-services .title {
+    margin-top: 0px;
+  }
+  
+  .card-projects .title {
+    margin-top: 0px;
+  }
+  
+  .card-blog .title {
+    margin-top: 0px;
+  }
+  
+  .card-contact .title {
+    margin-top: 0px;
+  }
+  
+  .projects-block .image {
+    border-radius: 10px;
+  }
+  
+  .contact-form .form-group textarea {
+    border-radius: 10px;
+  }
+  
+  .news-block .image:before {
+    border-radius: 10px;
+  }
+  
+  .news-block .image img {
+    border-radius: 10px;
+  }
+  
+  .news-block .lower-content {
+    border-radius: 0px 0px 10px 10px;
+    padding: 30px;
+    border: 1px solid rgba(208, 206, 206, 0.4);
+    border-top: 0px;
+    box-shadow: 0 3px 12px #ebedf0ad;
+  }
+  
+  .home-google-map .google-map {
+    height: 0px;
+  }
+  
+  .author-info .author h3 {
+    font-weight: 500;
+    color: #fff;
+  }
+  
+  .author-info .author .designation {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    margin-bottom: 30px;
+    color: #fff;
+  }
+  
+  .social-icon-two li a {
+    color: #ffffff;
+  }
+  
+  .btn-style-two {
+    color: #fff;
+  }
+  
+  .social-icon-two li a {
+    line-height: 42px;
+    border: 1px solid #dbdbdb;
+  }
+  
+  .news-block .date {
+    background-color: #2229;
+  }
+  
+  .huise {
+    color: #ccc;
+  }
+  
+  .services-block .text {
+    margin-bottom: 10px;
+    height: 3rem;
+  }
+  
+  .services-block.col-md-6 {
+    cursor: pointer;
+  }
+  
+  .btn-style-one,
+  .btn-style-two {
+    padding: 8px 30px;
+  }
+  
+  .default-version .card-outer .card-wrapper {
+    box-shadow: 0 0 13px 2px rgb(156 154 154 / 27%);
+  }
+  
+  @media only screen and (max-width: 1199px) {
+    .default-version .card-outer .card-wrapper {
+      box-shadow: none;
+    }
+  }
+  
+  .projects-block .image {
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0 rgb(176 169 169 / 29%);
+    margin: 10px;
+  }
+  
+  .shadow-blur {
+    position: relative;
+  }
+  
+  .shadow-blur::before {
+    content: "";
+    display: block;
+    background: inherit;
+    filter: blur(0.5rem);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 5px;
+    left: 5px;
+    z-index: -1;
+    opacity: 0.4;
+    transform-origin: 0 0;
+    border-radius: inherit;
+    transform: scale(1, 1);
+  }
+  
+  .ltps {
+    background-image: linear-gradient(45deg, #0081ff, #1cbbb4);
+    border-radius: 1rem;
+    color: #fff;
+    border-radius: 0.5rem;
+    padding: 1.5rem 1rem;
+    font-size: 1.3rem;
+    font-family: "Noto Serif SC", serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .ltps .hen {
+    width: 4px;
+    height: 20px;
+    background: #fff;
+    display: inline-block;
+    border-radius: 1rem;
+    margin-right: 0.6rem;
+  }
+  
+  .keyPoint {
+    background-color: #d2f1f0;
+    color: #1cbbb4;
+    padding: 2px 10px;
+    border-radius: 20px;
+    font-style: normal;
+    font-size: 14px;
+  }
+  
+  .keyPoint_t {
+    background-color: #fde6d2;
+    color: #f37b1d;
+    padding: 2px 10px;
+    border-radius: 20px;
+    font-style: normal;
+    font-size: 14px;
+  }
+  
